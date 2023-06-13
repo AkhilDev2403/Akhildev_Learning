@@ -14,7 +14,7 @@ public class LearningApplication {
 		 = SpringApplication.run(LearningApplication.class, args);
 		System.out.println("How you doin ?");
 		MyWebController controller =  context.getBean(MyWebController.class);
-		System.out.println(controller.returnValueFromBusiness());
+		System.out.println(controller.returnValueFromBusinessService());
 	}
 
 }
