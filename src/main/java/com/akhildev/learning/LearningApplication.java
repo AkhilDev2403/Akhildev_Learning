@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import com.akhildev.learning.controller.MyWebController;
+import com.akhildev.learning.controller.web.MyWebController;
 
 @SpringBootApplication
 public class LearningApplication {
